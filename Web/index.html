@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>Почетна</title>
+		<link rel="stylesheet" media="screen" href="style.css">
+		<script src="jquery-1.11.2.min.js"></script>
+	
+	<script type="text/javascript">
+		var dvizenje, levo=0, skala=null;
+
+		function init(){
+			skala = document.getElementById('skala-slika');
+		  	skala.style.position= 'absolute';
+		  	skala.style.top = '200px';
+		   	skala.style.left = '255px';
+		   	skala.style.visibility='hidden';
+			
+			dviziDesno();
+		}
+
+		function dviziDesno(){
+		    levo = parseInt(skala.style.left, 10);
+		
+		    if (1068 >= levo) {
+		        skala.style.left = (levo + 5) + 'px';
+		        skala.style.visibility='visible';
+		
+		        dvizenje = setTimeout(function(){
+		        	dviziDesno();
+		        	},30);
+		    } else {
+		        stop();
+		    }
+		}
+
+		function stop(){
+		   clearTimeout(dvizenje);
+		}
+		
+		window.onload = function(){
+			init();
+		};
+	</script>
+	</head>
+	
+	<body>
+		
+		<div id="container">
+			<div id="navigacija-container">
+				<div id="logo"></div>
+				<div id="navigacija">
+					<div id="apletGotov">
+    				    <applet code="Clock3D.class" width="250" height="100">
+                            <param name="fps" value="18">
+                            <param name="a1" value="12500">
+                            <param name="pixd" value="29">
+                            <param name="pixangle" value="5">
+                            <param name="radius" value="26">
+                            <param name="roty" value="-4">
+                            <param name="rotx" value="0">
+                            <param name="rotz" value="0.401">
+                            <param name="irotx" value="0">
+                            <param name="iroty" value="0">
+                            <param name="irotz" value="00">
+                            <param name="style" value="1">
+                            <param name="color" value="#ff1a1a">
+                            <param name="bgcolor" value="#004d00">
+                            <param name="12hour" value="0">
+                        </applet>
+    				</div>
+					
+					<ul id="lista">
+						<li style="background-color: #006600; border-right: 5px solid #006600; 
+								border-top: 1px solid #ff3300; border-bottom: 1px solid #ff3300; padding-top: 20px"><a href="index.html"><font color="white">
+							                            Почетна</font></a></li>
+						<li><a href="biblioteka.html">Моја библиотека</a></li>
+						<li><a href="katalog.html">Каталог</a></li>
+						<li><a href="kontakt.html">Контактирај ме!</a></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+			<div id="index-pocetna">
+				<div id="slika-naslovna">
+						<img src="img/knigii.jpg" style="height: 203px;">
+						</div>
+						<div id="naslovnaknigi">
+							<div id="naslovnadelprv">
+								<div id="naslovna-kniga1">
+									<img src="img/ostripredmeti.jpg">
+								</div>
+								<div id="naslovna-kniga2">
+									<img src="img/prezivejzadaraskazuvas.jpg">
+								</div>
+								<div id="naslovna-kniga3">
+									<img src="img/golemiimalilagi.jpg">
+								</div>
+							</div>
+							
+							<div id="naslovnadelvtor">
+								<div id="naslovna-kniga4">
+									<img src="img/clashofkings.jpg">
+								</div>
+								<div id="naslovna-kniga5">
+									<img src="img/skyland.jpg">
+								</div>
+								<div id="naslovna-kniga6">
+									<img src="img/paralelensvet.jpg">
+								</div>
+							</div>
+						</div>
+							
+						<div id="skala-slika">
+							<img src="img/skala.png"/>
+						</div>
+				</div>
+			
+			<div id="footer">
+				<div id="footer-levo">
+					<pre>
+						
+						      Овој сајт е мое лично дело, освен оние делови кои е наведено дека се превземени. 
+                                                                             Секое копирање на сајтот без моја согласност е забрането.
+					</pre>
+					
+					<pre style="font-size: 14px; color: #ff3300;">             
+	      						                    Изработил: Малчев Александар 141114
+	      			</pre>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</body>

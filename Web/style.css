@@ -1,0 +1,360 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url('./img/background.jpg');
+}
+#container{
+	width: 1349px;
+	height: 800px;
+	background-position: right;
+}
+#navigacija-container{
+	width: 250px;
+	height: 650px;
+	background-color: #004d00;
+	border-right: 1px solid #ff3300;
+	border-bottom: 1px solid #ff3300;
+	position: fixed;
+}
+#logo{
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: white;
+	background-image: url('./img/logo.png');
+}
+#navigacija{
+	float: left;
+	width: 250px; 
+	height: 360px;
+}
+#lista{
+	display: block;
+	list-style-type: none;
+	padding-top: 40px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	border: 0px;
+}
+#lista li{
+	width: 250px;
+	height: 50px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+}
+#lista li a{
+	color: white;
+	text-decoration: none;
+}
+#lista li:hover{
+	background-color: #004d00;
+}
+
+#index{
+	float: left;
+	width: 1000px;
+	height: 650px;
+	background-color: #006600;
+	margin-left: 255px;
+}
+
+#index-biblioteka{
+	float: left;
+	width: 1000px;
+	height: 1600px;
+	background-color: #006600;
+	margin-left: 255px;
+}
+
+#biblioteka{
+	width: 1000px;
+	height: 1150px;
+	float: left;
+}
+
+#psiholoski-trileri, #misterii, #avanturi{
+	width: 248px;
+	float: left;
+	height: 1200px;
+   	border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#naucna-fantastika{
+	width: 248px;
+	float: left;
+	height: 1200px;
+}
+
+#psiholoski-trileri-naslov, #misterii-naslov, #avanturi-naslov, #naucna-fantastika-naslov{
+	width: 230px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#sliki1, #sliki2, #sliki3, #sliki4{
+	width: 230px;
+	height: 840px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+#pt-slika1, #pt-slika2, #pt-slika3, #m-slika1, #m-slika2, #m-slika3, #a-slika1, #a-slika2, #a-slika3, #nf-slika1, #nf-slika2, #nf-slika3{
+	width: 190px;
+	height: 240px;
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+	border: 1px solid white;
+}
+
+#text-pt-slika1, #text-pt-slika2, #text-pt-slika3, #text-m-slika1, #text-m-slika2, #text-m-slika3,
+	#text-a-slika1, #text-a-slika2, #text-a-slika3, #text-nf-slika1, #text-nf-slika2, #text-nf-slika3{
+	width: 190px;
+	height: 38px;
+	float: left;
+	background-color: #ff3300;
+	margin-left: 20px;
+	border: 1px solid white;
+}
+
+.kopcinja{
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin-left: 53px;
+}
+
+#footer{
+	width: 1000px;
+	height: 120px;
+	background-color: #004d00;
+	margin-left: 255px;
+	border-top: 1px solid #ff1a1a;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	float: left;
+}
+#footer-levo{
+	height: 90px;
+	width: 670px;
+	float: left;
+	margin: 15px 0px 15px 0px;
+	font-size: 12px;	
+	float: left;
+}
+
+#index-kontakt{
+	width: 1000px;
+	height: 760px;
+	background-color: #006600;
+	margin-left: 255px;
+}
+#kontakt-header{
+	width:inherit;
+	height: 200px;
+	padding-top: 20px;
+}
+#kontakt-header pre{
+	width:inherit;
+	height: 60px;
+	color: white;
+	font-size: 34px;
+}
+#mail{
+	width: inherit;
+	height: 485px;
+	padding: 10px 0 15px 0;
+}
+#mail-levo{
+	width: 450px;
+	height: 410px;
+	border-right: 3px solid #ff1a1a;
+	padding: 40px 15px 25px 25px;
+	float: left;
+}
+#mail-desno{
+	width: 467px;
+	height: 410px;
+	padding: 40px 15px 25px 25px;
+	float:left;
+}
+#mail-levo p{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 13px;
+}
+#faks{
+	color: white;
+	font-size: 23px;
+	margin-top: 200px;
+}
+#mail-desno{
+	color: white;
+}
+#p{
+	color: white;
+	margin-bottom: 30px;
+	font-size: 23px;
+}
+form{
+	width: 442px;
+	height: 366px;
+	padding-left: 25px;
+}
+form p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
+}
+
+#index-katalog{
+	width: 1000px;
+	height: 635px;
+	background-color: #006600;
+	margin-left: 255px;
+	padding-top: 35px;
+}
+#katalog{
+	width: 800px;
+	height: 600px;
+	border: 1px solid #ff1a1a;
+	margin-left: 105px;
+}
+
+#index-pocetna{
+	float: left;
+	width: 1000px;
+	height: 730px;
+	background-color: #006600;
+	margin-left: 255px;
+}
+
+#biblioteka-kosnica{
+	float: left;
+	width: 1000px;
+	height: 410px;
+	background-color: #006600;
+	border-top: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+#kosnicaDel, #zelbiDel{
+	float: left;
+	width: 500px;
+	height: 390px;
+	background-color: #006600;
+}
+
+#kosnica{
+	float: left;
+	width: 474px;
+	height: 323px;
+	background-color: #004d00;
+	border: 3px solid white;
+	margin-left: 20px;
+}
+
+#tKosnica{
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 474px;
+	height: 22px;
+	float: left;
+	background-color: white;
+	border: 3px solid #004d00;
+}
+
+#tZelbi{
+	float: left;
+	width: 346px;
+	height: 22px;
+	background-color: white;
+	border: 1px solid #004d00;	
+	margin-left: 95px;
+	margin-top: 30px;
+}
+
+#zelbi{
+	float: left;
+	width: 320px;
+	height: 330px;
+	background-color: #004d00;
+	border: 1px solid white;
+}
+
+#brojkiZelbi{
+	float: left;
+	width: 24px;
+	height: 330px;
+	background-color: #004d00;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-left: 95px;
+}
+
+#index-razmena{
+	width: 1000px;
+	height: 550px;
+	background-color: #006600;
+	margin-left: 255px;
+}
+#preporaka{
+	width: 800px;
+	height: 420px;
+	border: 1px solid #ff1a1a;
+	margin-left: 25px;
+	float: left;
+}
+#doverba{
+	width: 800px;
+	height: 50px;
+	float: left;
+	color: white;
+	font-size: 35px;
+	padding-left: 26px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+#nitka{
+	height: 550px;
+	width: 170px;
+	float: right;
+	margin-right: 2px;
+}
+
+#apletGotov{
+	margin-top: 20px;
+	width: 250px;
+	height: 100px;
+}
+
+#naslovnaknigi{
+	width: 835px;
+	height: 513px;
+	float: left;
+	margin-top: 10px;
+}
+
+#naslovna-kniga1, #naslovna-kniga2, #naslovna-kniga3, #naslovna-kniga4, #naslovna-kniga5, #naslovna-kniga6{
+	width: 248px;
+	float: left;
+	height: 248px;
+   	margin-left: 30px;
+}
+
+#naslovnadelprv, #naslovnadelvtor{
+	width: 835px;
+	height: 260px;
+	float: left;
+}

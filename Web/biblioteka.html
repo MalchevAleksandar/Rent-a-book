@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>Моја библиотека</title>
+		<link rel="stylesheet" media="screen" href="style.css">
+		<script src="jquery-1.11.2.min.js"></script>
+		<script src="jquery-skripta.js"></script>
+	</head>
+	
+	<body>
+		
+		<div id="container">
+			<div id="navigacija-container">
+				<div id="logo"></div>
+				<div id="navigacija">
+					<div id="apletGotov">
+    				    <applet code="Clock3D.class" width="250" height="100">
+                            <param name="fps" value="18">
+                            <param name="a1" value="12500">
+                            <param name="pixd" value="29">
+                            <param name="pixangle" value="5">
+                            <param name="radius" value="26">
+                            <param name="roty" value="-4">
+                            <param name="rotx" value="0">
+                            <param name="rotz" value="0.401">
+                            <param name="irotx" value="0">
+                            <param name="iroty" value="0">
+                            <param name="irotz" value="00">
+                            <param name="style" value="1">
+                            <param name="color" value="#ff1a1a">
+                            <param name="bgcolor" value="#004d00">
+                            <param name="12hour" value="0">
+                        </applet>
+    				</div>
+					
+					<ul id="lista">
+						<li><a href="index.html">Почетна</a></li>
+						<li style="background-color: #006600; border-right: 5px solid #006600; 
+								border-top: 1px solid #ff3300; border-bottom: 1px solid #ff3300; padding-top: 20px"><a href="biblioteka.html"><font color="white">
+							                            Моја библиотека</font></a></li>
+						<li><a href="katalog.html">Каталог</a></li>
+						<li><a href="kontakt.html">Контактирај ме!</a></li>
+					</ul>
+					
+				</div>
+				
+			</div>
+			
+			<div id="index-biblioteka">
+				<div id="biblioteka">
+					<div id="psiholoski-trileri">
+						<div id="psiholoski-trileri-naslov">
+								<pre style="font-size: 20px; font-weight: bold; color: white;">     Психолошки    
+	 трилери</pre>
+							</div>
+							<div id="sliki1">
+								<div id="pt-slika1">
+									<img src="img/odminatotonesebega.jpg">
+									</div>
+									<div id="text-pt-slika1">
+										<p style="font-size: 12px; font-weight: bold; color: white; text-align: center;">"Од минатото не се бега"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Eрик Асл Сунд</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Од минатото не се бега - Ерик Асл Сунд'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Од минатото не се бега - Ерик Асл Сунд'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="pt-slika2">
+									<img src="img/prezivejzadaraskazuvas.jpg">
+									</div>
+									<div id="text-pt-slika2">
+										<p style="font-size: 10px; font-weight: bold; color: white; text-align: center;">"Преживеј за да раскажуваш"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Лиса Гарднер</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Преживеј за да раскажуваш - Лиса Гарднер'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Преживеј за да раскажуваш - Лиса Гарднер'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="pt-slika3">
+									<img src="img/ostripredmeti.jpg">
+									</div>
+									<div id="text-pt-slika3">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Остри предмети"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Џилијан Флин</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Остри предмети - Џилијан Флин'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Остри предмети - Џилијан Флин'); return false;" value="Додај во желби"></input>
+									</div>
+							</div>
+						</div>
+					<div id="misterii">
+						<div id="misterii-naslov">
+								<pre style="font-size: 20px; font-weight: bold; color: white;">
+			
+	 Мистерии</pre>
+							</div>
+							<div id="sliki2">
+								<div id="m-slika1">
+									<img src="img/niebevmelazgovci.jpg">
+									</div>
+									<div id="text-m-slika1">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Ние бевме лажговци"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">E. Локхарт</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Ние бевме лажговци - Е. Локхарт'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Ние бевме лажговци - Е. Локхарт'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="m-slika2">
+									<img src="img/golemiimalilagi.jpg">
+									</div>
+									<div id="text-m-slika2">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Големи и мали лаги"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Лиен Мориарти</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Големи и мали лаги - Лиен Мориарти'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Големи и мали лаги - Лиен Мориарти'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="m-slika3">
+									<img src="img/studenaopasnost.jpg">
+									</div>
+									<div id="text-m-slika3">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Студена опасност"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Сандра Браун</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Студена опасност - Сандра Браун'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Студена опасност - Сандра Браун'); return false;" value="Додај во желби"></input>
+									</div>
+								</div>
+						</div>
+					<div id="avanturi">
+						<div id="avanturi-naslov">
+								<pre style="font-size: 20px; font-weight: bold; color: white;">
+									
+	 Авантури</pre>
+							</div>
+							<div id="sliki3">
+								<div id="a-slika1">
+									<img src="img/clashofkings.jpg">
+									</div>
+									<div id="text-a-slika1">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Судир на Кралеви"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Џорџ Р.Р. Мартин</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Судир на Кралеви - Џорџ Р.Р. Мартин'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Судир на Кралеви - Џорџ Р.Р. Мартин'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="a-slika2">
+									<img src="img/vremenskaporta.png">
+									</div>
+									<div id="text-a-slika2">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Временска порта"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Улис Мур</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Временска порта - Улис Мур'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Временска порта - Улис Мур'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="a-slika3">
+									<img src="img/zver.jpg">
+									</div>
+									<div id="text-a-slika3">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Ѕвер"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Алекс Флин</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Ѕвер - Алекс Флин'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Ѕвер - Алекс Флин'); return false;" value="Додај во желби"></input>
+									</div>
+								</div>
+						</div>
+					<div id="naucna-fantastika">
+						<div id="naucna-fantastika-naslov">
+								<pre style="font-size: 20px; font-weight: bold; color: white;">          Научна    
+      фантастика</pre>
+							</div>
+							<div id="sliki4">
+								<div id="nf-slika1">
+									<img src="img/skyland.jpg">
+									</div>
+									<div id="text-nf-slika1">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Острови во ветер"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Дејвид Карлајл</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Острови во ветер - Дејвид Карлајл'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Острови во ветер - Дејвид Карлајл'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="nf-slika2">
+									<img src="img/ognotnazivoto.jpg">
+									</div>
+									<div id="text-nf-slika2">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Огнот на животот"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Е.Ј. Алибис</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Огнот на животот - Е.Ј. Алибис'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Огнот на животот - Е.Ј. Алибис'); return false;" value="Додај во желби"></input>
+									</div>
+								<div id="nf-slika3">
+									<img src="img/paralelensvet.jpg">
+									</div>
+									<div id="text-nf-slika3">
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">"Паралелен свет"</p>
+										<p style="font-size: 13px; font-weight: bold; color: white; text-align: center;">Б.Д. Бенедикт</p>
+										</div>
+									<div class="kopcinja">
+										<input type="button" class="button" name="klikPRC" id="klik" style="cursor: pointer;" onclick="funkcijaDodadiKosnica('Паралелен свет - Б.Д. Бенедикт'); return false;" value="Додај во кошница"></input>
+										<input type="button" class="button" style="margin-left: 10px; cursor: pointer;" onclick="funkcijaDodadiZelbi('Паралелен свет - Б.Д. Бенедикт'); return false;" value="Додај во желби"></input>
+									</div>
+								</div>
+						</div>
+				</div>
+				<div id="biblioteka-kosnica">
+					<div id="kosnicaDel">
+						<div id="tKosnica">
+							<p style="font-weight: bold; color: black; text-align: center;">Книги додадени во вашата кошница:</p>
+							</div>
+						<ul style="list-style-type: none;" id="kosnica">
+							</ul>
+						<input id="submit" type="submit" value="Заврши го разменувањето" style="background-color: #006600; margin-left: 20px; color: white;
+										border:1px solid #ff1a1a; width: 190px; height: 20px;" onclick="nasociMe();">
+						<button type="button" id="izbrisiKosnica" style="cursor: pointer; margin-left: 219px;" onclick="izbrisiKosnica();">Избриши</button>
+					</div>	
+					<div id="zelbiDel">
+						<div id="tZelbi">
+							<p style="color: black; text-align: center;">Книги додадени во желби:</p>
+						</div>
+						<div id="brojkiZelbi">
+							</div>
+						<ol id="zelbi">
+							</ol>
+						<button type="button" id="prefrliVoKosnica" style="cursor: pointer; margin-left: 95px;" onclick="prefrliZelbiKosnica();">Префрли во кошница</button>
+						<button type="button" id="izbrisiZelbi" style="cursor: pointer; margin-left: 79px;" onclick="izbrisiZelbi();">Избриши желби</button>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="footer">
+				<div id="footer-levo">
+					<pre>
+						
+						      Овој сајт е мое лично дело, освен оние делови кои е наведено дека се превземени. 
+                                                                             Секое копирање на сајтот без моја согласност е забрането.
+					</pre>
+					
+					<pre style="font-size: 14px; color: #ff3300;">             
+	      						                    Изработил: Малчев Александар 141114
+	      			</pre>
+				</div>
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		
+	</body>
